@@ -1,0 +1,106 @@
+Build started at 2018-10-20T17:27:35.948939
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.48.1
+Source dir: /media/abdullah/0c8be405-e668-4908-86e9-e93f33c1b614/projects/CPlusPlus Projects/OpenGL
+Build dir: /media/abdullah/0c8be405-e668-4908-86e9-e93f33c1b614/projects/CPlusPlus Projects/OpenGL/build
+Build type: native build
+Project name: opengltest
+Project version: 0.1
+Native C compiler: cc (gcc 7.3.0 "cc (Ubuntu 7.3.0-16ubuntu3) 7.3.0")
+Native C++ compiler: c++ (gcc 7.3.0 "c++ (Ubuntu 7.3.0-16ubuntu3) 7.3.0")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Dependency gl found: YES (cached)
+Dependency glew found: YES (cached)
+Dependency glu found: YES (cached)
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Determining dependency 'glut' with pkg-config executable '/usr/bin/pkg-config'
+Called `/usr/bin/pkg-config --modversion glut` -> 1
+
+Dependency glut found: NO (tried pkgconfig)
+Dependency glfw3 found: YES (cached)
+Dependency threads found: YES (cached)
+Determining dependency 'Xrandr' with pkg-config executable '/usr/bin/pkg-config'
+Called `/usr/bin/pkg-config --modversion Xrandr` -> 1
+
+Dependency xrandr found: NO (tried pkgconfig)
+Determining dependency 'Xi' with pkg-config executable '/usr/bin/pkg-config'
+Called `/usr/bin/pkg-config --modversion Xi` -> 1
+
+Dependency xi found: NO (tried pkgconfig)
+Determining dependency 'dl' with pkg-config executable '/usr/bin/pkg-config'
+Called `/usr/bin/pkg-config --modversion dl` -> 1
+
+Dependency dl found: NO (tried pkgconfig)
+Dependency x11 found: YES (cached)
+Determining dependency 'Xxf86vm' with pkg-config executable '/usr/bin/pkg-config'
+Called `/usr/bin/pkg-config --modversion Xxf86vm` -> 1
+
+Dependency xxf86vm found: NO (tried pkgconfig)
+Determining dependency 'Xinerama' with pkg-config executable '/usr/bin/pkg-config'
+Called `/usr/bin/pkg-config --modversion Xinerama` -> 1
+
+Dependency xinerama found: NO (tried pkgconfig)
+Determining dependency 'Xcursor' with pkg-config executable '/usr/bin/pkg-config'
+Called `/usr/bin/pkg-config --modversion Xcursor` -> 1
+
+Dependency xcursor found: NO (tried pkgconfig)
+Running compile:
+Working directory:  /tmp/tmpgx8k872m
+Command line:  c++ /tmp/tmpgx8k872m/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpgx8k872m/output.obj -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/7/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/7/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/7/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Library glut found: YES
+Library Xrandr found: YES
+Library Xi found: YES
+Running compile:
+Working directory:  /tmp/tmpbkl88mmx
+Command line:  c++ /tmp/tmpbkl88mmx/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpbkl88mmx/output.exe -O0 -fpermissive -Wl,--start-group -ldl -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(int argc, char **argv) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library dl found: YES
+Library Xxf86vm found: YES
+Library Xinerama found: YES
+Library Xcursor found: YES
+Build targets in project: 1
+Option warning_level is: 3 [default: 1]
+Found ninja-1.8.2 at /usr/bin/ninja
+Running compile:
+Working directory:  /tmp/tmpi8e32a86
+Command line:  c++ /tmp/tmpi8e32a86/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpi8e32a86/output.obj -std=c++14 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++14: YES
+Running compile:
+Working directory:  /tmp/tmpv0t3km88
+Command line:  cc /tmp/tmpv0t3km88/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpv0t3km88/output.obj -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/7/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/7/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/7/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 

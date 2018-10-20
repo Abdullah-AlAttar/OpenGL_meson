@@ -1,0 +1,12 @@
+[
+  {
+    "directory": "/media/abdullah/0c8be405-e668-4908-86e9-e93f33c1b614/projects/CPlusPlus Projects/OpenGL/build",
+    "command": "c++ -Iopengltest@exe -I. -I.. -I../include -I/usr/include/libdrm -I/usr/local/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -g -pthread  -MD -MQ 'opengltest@exe/src_main.cpp.o' -MF 'opengltest@exe/src_main.cpp.o.d' -o 'opengltest@exe/src_main.cpp.o' -c ../src/main.cpp",
+    "file": "../src/main.cpp"
+  },
+  {
+    "directory": "/media/abdullah/0c8be405-e668-4908-86e9-e93f33c1b614/projects/CPlusPlus Projects/OpenGL/build",
+    "command": "cc -Iopengltest@exe -I. -I.. -I../include -I/usr/include/libdrm -I/usr/local/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -pthread  -MD -MQ 'opengltest@exe/src_glad.c.o' -MF 'opengltest@exe/src_glad.c.o.d' -o 'opengltest@exe/src_glad.c.o' -c ../src/glad.c",
+    "file": "../src/glad.c"
+  }
+]
